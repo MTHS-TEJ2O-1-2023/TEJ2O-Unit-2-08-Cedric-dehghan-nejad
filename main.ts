@@ -64,7 +64,7 @@ input.onButtonPressed(Button.B, function () {
   basic.pause(1000)
 })
 
-//setup
+// setup
 pins.digitalWritePin(DigitalPin.P15, 1)
 pins.digitalWritePin(DigitalPin.P16, 1)
 basic.showString('yellow')
@@ -80,7 +80,7 @@ input.onButtonPressed(Button.B, function () {
   pins.digitalWritePin(DigitalPin.P16, 0)
   basic.pause(1000)
 })
-//setup
+// setup
 pins.digitalWritePin(DigitalPin.P14, 1)
 pins.digitalWritePin(DigitalPin.P15, 1)
 basic.showString('cyan')
@@ -96,7 +96,7 @@ input.onButtonPressed(Button.B, function () {
   pins.digitalWritePin(DigitalPin.P14, 0)
   basic.pause(1000)
 })
-//setup
+// setup
 pins.digitalWritePin(DigitalPin.P14, 1)
 pins.digitalWritePin(DigitalPin.P15, 1)
 pins.digitalWritePin(DigitalPin.P16, 1)
