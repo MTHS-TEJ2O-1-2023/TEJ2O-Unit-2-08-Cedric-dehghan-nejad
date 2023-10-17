@@ -6,10 +6,10 @@ This module turns on and off a LED
 
 from microbit import *
 while True():
-    # setup
-    display.clear()
-    pin16.write_digital(1)
-    display.show("red")
+# setup
+display.clear()
+pin16.write_digital(1)
+display.show("red")
 
 # turn on LED
 if button_a.is_pressed():
