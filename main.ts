@@ -1,92 +1,92 @@
-/* Copyright (c) 2020 MTHS All rights reserved
- *
- * Created by: Cedric
- * Created on: Oct 2023
- * This program mixes colors
-*/
+    /* Copyright (c) 2020 MTHS All rights reserved
+    *
+    * Created by: Cedric
+    * Created on: Oct 2023
+    * This program mixes colors
+    */
 
-// setup
-pins.digitalWritePin(DigitalPin.P16, 0)
-pins.digitalWritePin(DigitalPin.P15, 0)
-pins.digitalWritePin(DigitalPin.P14, 0)
+    // setup
+    pins.digitalWritePin(DigitalPin.P16, 0)
+    pins.digitalWritePin(DigitalPin.P15, 0)
+    pins.digitalWritePin(DigitalPin.P14, 0)
 
-input.onButtonPressed(Button.A, function () {
-})
+    input.onButtonPressed(Button.A, function () {
+    })
 
-basic.showString('red')
+    basic.showString('red')
 
-// turn on LED
-pins.digitalWritePin(DigitalPin.P16, 1)
-basic.pause(1000)
+    // turn on LED
+    pins.digitalWritePin(DigitalPin.P16, 1)
+    basic.pause(1000)
 
-// turn off LED
-pins.digitalWritePin(DigitalPin.P16, 0)
-basic.pause(1000)
+    // turn off LED
+    pins.digitalWritePin(DigitalPin.P16, 0)
+    basic.pause(1000)
 
-basic.showString('Green')
+    basic.showString('Green')
 
-// turn on LED
-pins.digitalWritePin(DigitalPin.P15, 1)
-basic.pause(1000)
+    // turn on LED
+    pins.digitalWritePin(DigitalPin.P15, 1)
+    basic.pause(1000)
 
-// turn off LED
-pins.digitalWritePin(DigitalPin.P15, 0)
-basic.pause(1000)
+    // turn off LED
+    pins.digitalWritePin(DigitalPin.P15, 0)
+    basic.pause(1000)
 
-basic.showString('Blue')
+    basic.showString('Blue')
 
-// turn on LED
-pins.digitalWritePin(DigitalPin.P14, 1)
-basic.pause(1000)
+    // turn on LED
+    pins.digitalWritePin(DigitalPin.P14, 1)
+    basic.pause(1000)
 
-// turn off LED
-pins.digitalWritePin(DigitalPin.P14, 0)
-basic.pause(1000)
+    // turn off LED
+    pins.digitalWritePin(DigitalPin.P14, 0)
+    basic.pause(1000)
 
-basic.showString('Magenta')
+    basic.showString('Magenta')
 
-// turn on LED
-pins.digitalWritePin(DigitalPin.P14, 1)
-pins.digitalWritePin(DigitalPin.P16, 1)
-basic.pause(1000)
+    // turn on LED
+    pins.digitalWritePin(DigitalPin.P14, 1)
+    pins.digitalWritePin(DigitalPin.P16, 1)
+    basic.pause(1000)
 
-// turn off LED
-pins.digitalWritePin(DigitalPin.P14, 0)
-pins.digitalWritePin(DigitalPin.P16, 0)
-basic.pause(1000)
+    // turn off LED
+    pins.digitalWritePin(DigitalPin.P14, 0)
+    pins.digitalWritePin(DigitalPin.P16, 0)
+    basic.pause(1000)
 
-basic.showString('Yellow')
+    basic.showString('Yellow')
 
-// turn on LED
-pins.digitalWritePin(DigitalPin.P15, 1)
-pins.digitalWritePin(DigitalPin.P16, 1)
-basic.pause(1000)
+    // turn on LED
+    pins.digitalWritePin(DigitalPin.P15, 1)
+    pins.digitalWritePin(DigitalPin.P16, 1)
+    basic.pause(1000)
 
-// turn off LED
-pins.digitalWritePin(DigitalPin.P15, 0)
-pins.digitalWritePin(DigitalPin.P16, 0)
-basic.pause(1000)
+    // turn off LED
+    pins.digitalWritePin(DigitalPin.P15, 0)
+    pins.digitalWritePin(DigitalPin.P16, 0)
+    basic.pause(1000)
 
-basic.showString('Cyan')
-// turn on LED
-pins.digitalWritePin(DigitalPin.P15, 1)
-pins.digitalWritePin(DigitalPin.P14, 1)
-basic.pause(1000)
+    basic.showString('Cyan')
+    // turn on LED
+    pins.digitalWritePin(DigitalPin.P15, 1)
+    pins.digitalWritePin(DigitalPin.P14, 1)
+    basic.pause(1000)
 
-// turn off LED
-pins.digitalWritePin(DigitalPin.P15, 0)
-pins.digitalWritePin(DigitalPin.P14, 0)
-basic.pause(1000)
+    // turn off LED
+    pins.digitalWritePin(DigitalPin.P15, 0)
+    pins.digitalWritePin(DigitalPin.P14, 0)
+    basic.pause(1000)
 
-basic.showString('white')
-// turn on LED
-pins.digitalWritePin(DigitalPin.P15, 1)
-pins.digitalWritePin(DigitalPin.P14, 1)
-pins.digitalWritePin(DigitalPin.P16, 1)
-basic.pause(1000)
+    basic.showString('white')
+    // turn on LED
+    pins.digitalWritePin(DigitalPin.P15, 1)
+    pins.digitalWritePin(DigitalPin.P14, 1)
+    pins.digitalWritePin(DigitalPin.P16, 1)
+    basic.pause(1000)
 
-// turn off LED
-pins.digitalWritePin(DigitalPin.P15, 0)
-pins.digitalWritePin(DigitalPin.P14, 0)
-pins.digitalWritePin(DigitalPin.P16, 0)
-basic.pause(1000)
+    // turn off LED
+    pins.digitalWritePin(DigitalPin.P15, 0)
+    pins.digitalWritePin(DigitalPin.P14, 0)
+    pins.digitalWritePin(DigitalPin.P16, 0)
+    basic.pause(1000)
