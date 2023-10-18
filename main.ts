@@ -10,11 +10,10 @@
     pins.digitalWritePin(DigitalPin.P15, 0)
     pins.digitalWritePin(DigitalPin.P14, 0)
 
-basic.showString("red")
 // turn on LED
 input.onButtonPressed(Button.A, function () {
   pins.digitalWritePin(DigitalPin.P16, 1)
-
+    basic.showString("red")
 
 // turn off LED
   pins.digitalWritePin(DigitalPin.P16, 0)
