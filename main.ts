@@ -33,12 +33,12 @@ input.onButtonPressed(Button.A, function () {
   pins.digitalWritePin(DigitalPin.P14, 1)
   basic.pause(1000)
 
-// turn off LED
+  // turn off LED
   pins.digitalWritePin(DigitalPin.P14, 0)
   basic.pause(1000)
 
-basic.showString("Magenta")
-// turn on LED
+  basic.showString('Magenta')
+  // turn on LED
   pins.digitalWritePin(DigitalPin.P14, 1)
   pins.digitalWritePin(DigitalPin.P16, 1)
   basic.pause(1000)
@@ -54,7 +54,7 @@ basic.showString("Magenta")
   pins.digitalWritePin(DigitalPin.P16, 1)
   basic.pause(1000)
 
-// turn off LED
+  // turn off LED
   pins.digitalWritePin(DigitalPin.P15, 0)
   pins.digitalWritePin(DigitalPin.P16, 0)
   basic.pause(1000)
@@ -70,15 +70,15 @@ basic.showString("Magenta")
   pins.digitalWritePin(DigitalPin.P14, 0)
   basic.pause(1000)
 
-    //
+  //
   basic.showString('white')
-// turn on LED
+  // turn on LED
   pins.digitalWritePin(DigitalPin.P15, 1)
   pins.digitalWritePin(DigitalPin.P14, 1)
   pins.digitalWritePin(DigitalPin.P16, 1)
   basic.pause(1000)
 
-// turn off LED
+  // turn off LED
   pins.digitalWritePin(DigitalPin.P15, 0)
   pins.digitalWritePin(DigitalPin.P14, 0)
   pins.digitalWritePin(DigitalPin.P16, 1)
